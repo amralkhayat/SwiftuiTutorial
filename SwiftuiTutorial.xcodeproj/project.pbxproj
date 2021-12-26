@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD1FD6322779115600AFF7E1 /* ImageSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1FD6312779115600AFF7E1 /* ImageSlider.swift */; };
+		DD1FD635277911D300AFF7E1 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1FD634277911D300AFF7E1 /* ImageView.swift */; };
 		DD98531E2700C2D800E49825 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD98531D2700C2D800E49825 /* AppDelegate.swift */; };
 		DD9853202700C2D800E49825 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD98531F2700C2D800E49825 /* SceneDelegate.swift */; };
 		DD9853242700C2DD00E49825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9853232700C2DD00E49825 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD1FD6312779115600AFF7E1 /* ImageSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlider.swift; sourceTree = "<group>"; };
+		DD1FD634277911D300AFF7E1 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		DD98531A2700C2D800E49825 /* SwiftuiTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftuiTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD98531D2700C2D800E49825 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD98531F2700C2D800E49825 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD1FD6302779113A00AFF7E1 /* ImageSlider */ = {
+			isa = PBXGroup;
+			children = (
+				DD1FD6332779115F00AFF7E1 /* View */,
+				DD1FD6312779115600AFF7E1 /* ImageSlider.swift */,
+			);
+			path = ImageSlider;
+			sourceTree = "<group>";
+		};
+		DD1FD6332779115F00AFF7E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD1FD634277911D300AFF7E1 /* ImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		DD9853112700C2D800E49825 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +79,7 @@
 		DD98531C2700C2D800E49825 /* SwiftuiTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				DD1FD6302779113A00AFF7E1 /* ImageSlider */,
 				DD9853312700C5D100E49825 /* OnBoardingView */,
 				DD98531D2700C2D800E49825 /* AppDelegate.swift */,
 				DD98531F2700C2D800E49825 /* SceneDelegate.swift */,
@@ -164,7 +186,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD1FD635277911D300AFF7E1 /* ImageView.swift in Sources */,
 				DD98531E2700C2D800E49825 /* AppDelegate.swift in Sources */,
+				DD1FD6322779115600AFF7E1 /* ImageSlider.swift in Sources */,
 				DD9853332700C62E00E49825 /* OnBoardingView.swift in Sources */,
 				DD9853202700C2D800E49825 /* SceneDelegate.swift in Sources */,
 				DD9853372700C84500E49825 /* BoardingCard.swift in Sources */,
